@@ -1,0 +1,101 @@
+body {
+  background-color:#ff6666;
+  font-size:30px;
+}
+h1{
+ font-size:50px; 
+ font-weight: bold;
+ padding-top:25px;
+}
+#content {
+  font-family: 'Tangerine', serif;
+  color:white;
+  max-width: 600px;
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #2eb8b8;
+  box-shadow: 7px 10px 35px 1px rgba(0, 0, 0, 0.5);
+}
+
+#mainTitle {
+  font-family: 'Tangerine', serif;
+  text-align: center;
+
+}
+li {
+  width: 50px;
+  display: inline-block;
+}
+
+button {
+  color: #000;
+  margin: 6px;
+}
+
+#buttons {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.channel-box {
+  background-color: #000;
+  border: 3px solid #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.channel-pic {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.channel-name {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 5px;
+  
+}
+
+.channel-name a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.channel-stat {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: -15px;
+  width: 100%;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.offline {
+  background-color: #ff6666 !important;
+}
+
+.online {
+  background-color: #0066cc !important;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  outline: none !important;
+}
+
+
+
